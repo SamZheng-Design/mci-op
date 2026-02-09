@@ -1,35 +1,41 @@
 # MCI-OP
 
-多项目仓库 - 音乐行业运营工具集
+音乐行业运营工具集 - 多项目仓库
 
 ## 项目列表
 
-| 项目 | 描述 | 技术栈 |
-|------|------|--------|
-| [concert-artist-test](./concert-artist-test/) | 演唱会票房预测器 (Comparable模型) | Hono + TypeScript + TailwindCSS |
+| 项目 | 描述 | 部署方式 |
+|------|------|----------|
+| [concert-artist test](./concert-artist%20test/) | 演唱会票房预测器 (Comparable模型) | 新建全栈模式，克隆此分支 |
 
 ## 项目结构
 
 ```
 mci-op/
-├── README.md                    # 本文件
-├── concert-artist-test/         # 演唱会票房预测器项目
-│   ├── src/                     # 源代码
-│   ├── public/                  # 静态资源
-│   ├── package.json             # 依赖配置
-│   └── README.md                # 项目详细文档
-└── [future-projects]/           # 未来更多项目...
+├── README.md
+├── concert-artist test/         ← 演唱会票房预测器
+│   ├── src/index.tsx
+│   ├── public/
+│   ├── package.json
+│   └── README.md
+└── [其他项目]/                  ← 未来更多项目...
 ```
 
-## 快速开始
+## 部署指南
 
-```bash
-# 运行演唱会票房预测器
-cd concert-artist-test
-npm install
-npm run build
-npm run dev
-```
+### concert-artist test
+
+在新的 AI Developer 全栈模式中：
+
+1. 选择此仓库 `mci-op`
+2. 说：**"克隆 concert-artist test 项目并部署"**
+3. 执行命令：
+   ```bash
+   cd "concert-artist test"
+   npm install
+   npm run build
+   npm run dev
+   ```
 
 ---
 
