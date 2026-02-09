@@ -6,7 +6,9 @@
 - **技术栈**: Hono + TypeScript + TailwindCSS + OpenAI API
 
 ## 🔗 访问地址
-- **开发环境**: https://3000-izq3mrszxyfa466deoq63-5185f4aa.sandbox.novita.ai
+- **开发环境**: https://3000-i3w952fles6sj4hv6d4yv-0e616f0a.sandbox.novita.ai
+- **GitHub 仓库**: https://github.com/SamZheng-Design/mci-op
+- **Deploy 分支**: https://github.com/SamZheng-Design/mci-op/tree/deploy
 
 ## 🎯 核心功能
 
@@ -144,6 +146,12 @@ npm run deploy
 | Cardi B | 388 | 80.6 | 82.0 | 待预测 |
 
 ## 📝 版本日志
+
+### v2.1.0 (2026-02-09)
+- ✅ 创建独立 deploy 分支用于生产部署
+- ✅ 更新开发环境访问地址
+- ✅ 添加完善的 .gitignore 配置
+- ✅ 准备 Cloudflare Pages 部署
 
 ### v2.0.0 (2026-01-27)
 - ✅ 新增"演唱会票房预测入口"一站式界面
